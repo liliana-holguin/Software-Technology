@@ -1,0 +1,71 @@
+# NO MISTAKES #
+print(" +--+")
+print(" |  |")
+print("    |")
+print("    |")
+print("    |")
+print("    |")
+print("=====")
+
+# 1 MISTAKE #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("    |")
+print("    |")
+print("    |")
+print("=====")
+
+# 2 MISTAKES #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print(" |  |")
+print("    |")
+print("    |")
+print("=====")
+
+# 3 MISTAKES #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("/|  |")
+print("    |")
+print("    |")
+print("=====")
+
+# 4 MISTAKES #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("/|\ |")
+print("    |")
+print("    |")
+print("=====")
+
+# 5 MISTAKES #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("/|\ |")
+print("/   |")
+print("    |")
+print("=====")
+
+# 6 MISTAKES #
+print(" +--+")
+print(" |  |")
+print(" O  |")
+print("/|\ |")
+print("/ \ |")
+print("    |")
+print("=====")
+
+
+    i = 0
+    j = 0
+    print("Available Letters to Guess")
+    while i <= range(row1):
+        print(row1[i], end=" ")
+    for j in range(row2):
+        print(row2[j], end=" ")
